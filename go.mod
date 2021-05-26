@@ -3,14 +3,15 @@ module github.com/microsoft/moc-sdk-for-go
 go 1.14
 
 require (
+	code.cloudfoundry.org/bytefmt v0.0.0-20210524144015-27119551aaea
 	github.com/Azure/go-autorest/autorest v0.9.0
 	github.com/Azure/go-autorest/autorest/date v0.2.0
 	github.com/google/uuid v1.2.0
 	github.com/hectane/go-acl v0.0.0-20190604041725-da78bae5fc95 // indirect
-	github.com/microsoft/moc v0.10.9
+	github.com/microsoft/moc v0.10.10-alpha.2
 	github.com/spf13/viper v1.7.1
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
 	google.golang.org/grpc v1.27.1
-	google.golang.org/protobuf v1.25.0 // indirect
 	k8s.io/klog v1.0.0
 )
 
