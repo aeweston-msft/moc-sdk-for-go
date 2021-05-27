@@ -60,7 +60,7 @@ type ContainerProperties struct {
 	// Path
 	Path *string `json:"path,omitempty"`
 	// State - State
-	Statuses map[string]*string `json:"statuses"`
+	Statuses       map[string]*string `json:"statuses"`
 	*ContainerInfo `json:"info"`
 }
 
